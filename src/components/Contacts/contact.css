@@ -1,0 +1,76 @@
+#contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+
+}
+
+.clientTitle{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.clientImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+
+}
+
+.clientImage{
+    width: 8%;
+    min-width: 4rem;
+    margin: 1rem;
+}
+
+.contactUs{
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.contactDes{
+    margin-bottom: 1rem;
+    
+    
+}
+
+
+
+
+
+
+
+.email{
+    background-color: rgb(136, 132, 132);
+    margin-bottom: 10px;
+    color: black;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.email:hover{
+    
+    background-color: rgb(25, 214, 158);
+    
+}
+.link{
+    margin: 3rem;
+    width: 50px;
+    border-radius: 1rem;
+
+}
+.link:hover{
+    border: 3px solid black;
+}

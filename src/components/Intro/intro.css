@@ -1,0 +1,98 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 78rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+.introContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.title{
+    font-size: 4rem;
+    color: rgb(25, 214, 158);
+    margin: 0.5rem;
+    text-shadow: -1px 3px 2px rgb(4, 23, 37);
+    
+    
+
+
+}
+
+.cs{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+    
+
+.qs{
+    font-size: 1.2rem;
+    color: rgb(25, 214, 158);
+
+}
+
+
+    
+
+
+
+
+
+.pm{
+    font-size: 1.2rem;
+    color: rgb(25, 214, 158);
+
+}
+
+.heroImage{
+    width: 60vw;
+    margin: 0;
+    
+}
+
+.brief{
+    width: 17px;
+    margin: 2px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+
+@media screen and (max-width:776px) {
+    .heroImage{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1250px) {
+    #intro{
+        justify-content: space-around;
+        align-items: center;
+        max-width: none
+    
+    }
+}
+

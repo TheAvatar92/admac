@@ -1,0 +1,41 @@
+#skills{
+    
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+.aboutTitle{
+    font-size: 2.5rem;
+
+}
+
+.aboutUS{
+   max-width: 60rem;
+   padding: 1rem 2rem;
+}
+
+.skillBars{
+    max-width: 30rem;
+    min-width: 20rem;
+   background-color: rgb(182, 177, 177);
+   border-radius: 8px;
+   padding: 0.1rem 3rem;
+   margin: 0.5rem;
+   
+
+}
+
+@media screen and (min-width:1250px) {}
+
+.aboutUS{
+    width: 140%;
+}
+
+
