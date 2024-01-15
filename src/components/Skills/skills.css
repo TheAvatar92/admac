@@ -17,8 +17,11 @@
 }
 
 .aboutUS{
-   max-width: 60rem;
+   max-width: 40rem;
    padding: 1rem 2rem;
+   display: flex;
+   flex-wrap: wrap;
+   
 }
 
 .skillBars{
@@ -35,7 +38,17 @@
 @media screen and (min-width:1250px) {}
 
 .aboutUS{
-    width: 140%;
+   
+}
+
+@media screen and (max-width:500px){
+    .aboutUs{
+        min-width: none;
+
+    }
+    .skillBars{
+        min-width: 17rem;
+    }
 }
 
 
