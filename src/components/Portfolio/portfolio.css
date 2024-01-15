@@ -49,3 +49,17 @@
     border-radius: 2rem ;
     font-weight: bold;
 }
+
+@media screen and (min-width:1250px) {
+
+    .pDes{
+        font-size: larger;
+    }
+
+    
+    .projectImage{ 
+        max-width: 400px;
+        
+       
+    }
+    }

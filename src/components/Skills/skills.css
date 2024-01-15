@@ -35,10 +35,13 @@
 
 }
 
-@media screen and (min-width:1250px) {}
+@media screen and (min-width:1250px) {
 
-.aboutUS{
+.aboutUS{ 
+    max-width: none;
+    font-size: larger;
    
+}
 }
 
 @media screen and (max-width:500px){
