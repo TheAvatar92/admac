@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+   
 
 
 }
@@ -82,9 +82,27 @@
 }
 
 @media screen and (min-width:1250px) {
+
+
     #contactPage{
         padding: 0;
+        position: relative;
+        top: -30px;
+    }
+    }
+
+    .clientTitle{
+        font-size: 3rem;
+        
+    }
+
+    .clientsDes{
+        font-size: larger;
+    }
+
+    .email{
+        font-size: larger;
     }
 
 
-}
+
