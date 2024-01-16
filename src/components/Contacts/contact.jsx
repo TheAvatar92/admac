@@ -21,7 +21,7 @@ const Contact = () => {
                 Our Clients
             </h1>
             <span className="clientsDes">
-                We are proud to have worked with a diverse group of established comapnies.
+                We are proud to have worked with a diverse group of established companies.
             </span>
             <div className="clientImages">
                 <img src={dunlop} alt="" className="clientImage" />
