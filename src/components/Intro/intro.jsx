@@ -29,7 +29,7 @@ const Intro = () => {
             <span className="pm">
                 Project Managers
             </span>
-            <Link><button className="btn"><img src={brief} alt="brief" className='brief' />Hire Us</button></Link>
+            <div className="btn"><img src={brief} alt="brief" className='brief' />Hire Us</div>
 
 
 

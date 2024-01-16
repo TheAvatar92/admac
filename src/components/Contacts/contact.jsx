@@ -41,7 +41,7 @@ const Contact = () => {
             </h1>
             <a href="mailto:adam@admacconstruction.co.uk">
             <span className="email">
-                Email Us: adam@admacconstruction.co.uk
+                Email: adam@admacconstruction.co.uk
             
             </span>
             </a>
