@@ -10,8 +10,8 @@
 
 body{
   width: 100vw;
-  background: white;
-  color: black;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);;
+  color: white;
   overflow: hidden;
   overflow-y: scroll;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import './intro.css'
 import hero from '../images/hero.png'
 import brief from '../images/brief.png'
-import {Link} from 'react-scroll'
+
 
 const Intro = () => {
   return (
