@@ -1,7 +1,7 @@
 #skills{
     
     width: 100vw;
-    max-width: 65rem;
+    max-width: 80rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,8 +41,13 @@
 
 .aboutUS{ 
     max-width: none;
-    font-size: larger;
+    font-size: 1.5rem;
    
+}
+
+.skillBars{
+    width: 50rem;
+    font-size: larger;
 }
 }
 

@@ -53,13 +53,18 @@
 @media screen and (min-width:1250px) {
 
     .pDes{
-        font-size: larger;
+        font-size: 1.5rem;
     }
 
     
     .projectImage{ 
         max-width: 400px;
         
+        
        
+    }
+
+    .projectImages p {
+        font-size: larger;
     }
     }
