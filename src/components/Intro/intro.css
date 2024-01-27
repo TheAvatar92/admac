@@ -12,6 +12,8 @@
 }
 
 .video{
+    width: auto;
+    height: auto;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -94,9 +96,9 @@
 @media screen and (max-width:776px) {
     .title{
         font-size: 4rem;
-        color: whitesmoke;
+        color: transparent;
         margin: 0.5rem;
-        text-shadow: -1px 3px 2px rgb(4, 23, 37);
+        
         
         
     
@@ -136,3 +138,8 @@
     }
 }
 
+@media screen and (min-width:1900px) {
+.video{
+    width: 100vw;
+}
+}
