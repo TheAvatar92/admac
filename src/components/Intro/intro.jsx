@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import hero from '../images/hero.png'
+import video from '../images/video.mp4'
 import brief from '../images/brief.png'
 
 
@@ -8,6 +8,10 @@ const Intro = () => {
   return (
     <section id="intro">
         <div className="introContent">
+
+            <video className='video'autoPlay loop muted >
+                <source src={video} type='video/mp4'/>
+            </video>
             <h1 className="title">
                 ADMAC
 
@@ -34,7 +38,7 @@ const Intro = () => {
 
 
         </div>
-        <img className='heroImage' src={hero} alt="heroImage" />
+        
     </section>
   )
 }

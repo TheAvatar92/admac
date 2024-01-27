@@ -1,4 +1,5 @@
 #intro{
+    
     height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 78rem;
@@ -10,29 +11,37 @@
     
 }
 
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 
 
 .introContent{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 
 }
 
 .title{
-    font-size: 4rem;
-    color: whitesmoke;
+
+    font-size: 6rem;
+    color: transparent;
     margin: 0.5rem;
-    text-shadow: -1px 3px 2px rgb(4, 23, 37);
+    -webkit-text-stroke: 2px #fff;
     
-    
-
-
 }
 
+
+
 .cs{
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
     color: black;
@@ -40,7 +49,7 @@
     
 
 .qs{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: whitesmoke;
 
 }
@@ -53,16 +62,14 @@
 
 
 .pm{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: whitesmoke;
 
 }
 
-.heroImage{
-    width: 60vw;
-    margin: 0;
+
     
-}
+
 
 .brief{
     width: 17px;
@@ -85,8 +92,38 @@
 
 
 @media screen and (max-width:776px) {
-    .heroImage{
-        display: none;
+    .title{
+        font-size: 4rem;
+        color: whitesmoke;
+        margin: 0.5rem;
+        text-shadow: -1px 3px 2px rgb(4, 23, 37);
+        
+        
+    
+    
+    }
+    
+    .cs{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        color: black;
+    }
+        
+    
+    .qs{
+        font-size: 1.5rem;
+        color: whitesmoke;
+    
+    }
+    
+    
+        
+    
+    .pm{
+        font-size: 1.2rem;
+        color: whitesmoke;
+    
     }
 }
 
